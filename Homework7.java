@@ -48,6 +48,10 @@ public class Homework7 {
 	 * return the integer portion of a divided by
 	 * b (i.e., calculate a / b using a loop)
 	 */
+	 /* This is calculating the mod, not the
+	  * integer portion. To do that, you just need
+	  * to count how many times you subtract
+	  */
 	public static int problem4(int a, int b) {
 		while(a >= b){
 			a -= b;
